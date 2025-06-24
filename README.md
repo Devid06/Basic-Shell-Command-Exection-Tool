@@ -1,34 +1,55 @@
 [![progress-banner](https://backend.codecrafters.io/progress/shell/5e4bcaca-2c25-449d-85c3-b7a8a8cdb733)](https://app.codecrafters.io/users/Devid06?r=2qF)
 
-This is a starting point for Python solutions to the
-["Build Your Own Shell" Challenge](https://app.codecrafters.io/courses/shell/overview).
 
-In this challenge, you'll build your own POSIX compliant shell that's capable of
-interpreting shell commands, running external programs and builtin commands like
-cd, pwd, echo and more. Along the way, you'll learn about shell command parsing,
-REPLs, builtin commands, and more.
+## 🚀 Getting Started
 
-**Note**: If you're viewing this repo on GitHub, head over to
-[codecrafters.io](https://codecrafters.io) to try the challenge.
+### Prerequisites
+- Python 3.8+
+- [pipenv](https://pipenv.pypa.io/en/latest/) for managing dependencies
 
-# Passing the first stage
+### Setup and Run
 
-The entry point for your `shell` implementation is in `app/main.py`. Study and
-uncomment the relevant code, and push your changes to pass the first stage:
-
-```sh
-git commit -am "pass 1st stage" # any msg
-git push origin master
+```
+pip install pipenv
+pipenv install
+pipenv run python app/main.py
 ```
 
-Time to move on to the next stage!
+### Or run directly with Python
 
-# Stage 2 & beyond
+```
+python app/main.py
+```
 
-Note: This section is for stages 2 and beyond.
+## 🛠 Features
 
-1. Ensure you have `python (3.11)` installed locally
-1. Run `./your_program.sh` to run your program, which is implemented in
-   `app/main.py`.
-1. Commit your changes and run `git push origin master` to submit your solution
-   to CodeCrafters. Test output will be streamed to your terminal.
+- Accepts user input in a shell-like loop
+- Executes commands using Python's `subprocess` module
+- Gracefully handles invalid commands
+- Modular, beginner-friendly design
+
+## 🧪 Example
+
+```bash
+$ ls
+$ echo "Hello, Shell!"
+$ pwd
+```
+
+## 🧱 Built With
+
+- Python 3
+- `subprocess` module
+- Codecrafters.io challenge scaffolding
+
+## 📜 License
+
+This project is for educational purposes and part of the Codecrafters Shell challenge.
+
+👤 Author
+
+Himanshu Agnihotri
+
+- **GitHub**: [Himanshu Agnihotri](https://github.com/Devid06)
+- **LinkedIn**: [Himanshu Agnihotri](https://www.linkedin.com/in/himanshu-agnihotri26/)
+
